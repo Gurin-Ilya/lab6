@@ -148,6 +148,8 @@ int main()
 	cout << "iterations = " << i<<endl;
 	cout << "x1 = " << x1<<endl;
 	cout << "x2 = " << x2 << endl;
+	cout << "f(x1,x2) = " << (-f(x1, x2)) << endl;
+	cout << "Eps = " << epsF << endl;
 	fout.close();
 	fout1.close();
 	return 0;
