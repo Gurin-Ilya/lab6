@@ -21,7 +21,7 @@ if __name__ == '__main__':
     x, y, z = makeData() 
     fig = pylab.figure("Линии_уровня") 
     #axes = Axes3D(fig) 
-    data=np.loadtxt ("D:\Projects\C++\Modelirovanie\Lab6\Lab6\Track.txt") 
+    data=np.loadtxt ("Track.txt") 
     X=data[:,0] 
     Y=data[:,1] 
     k=len(X) 
